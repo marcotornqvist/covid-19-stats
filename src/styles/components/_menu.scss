@@ -1,0 +1,130 @@
+.menu {
+  border-right: 1px solid $lightgrey;
+  flex: 0 1 auto;
+  min-width: 230px;
+
+  .modes {
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $darkblue;
+    border-top-left-radius: 8px;
+
+    i {
+      font-size: 22px;
+      margin-right: 20px;
+      color: $grey;
+
+      &.fa-globe-europe {
+        font-size: 23px;
+      }
+
+      &.fa-chart-pie {
+        margin-top: 1px;
+      }
+
+      &.fa-chart-line {
+        font-size: 27px;
+        margin: 0;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.active {
+        color: white;
+      }
+    }
+  }
+
+  .filter {
+    padding: 15px 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid $lightgrey;
+
+    .search {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 35px;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      padding: 0 10px;
+      background: $lightgrey;
+
+      i {
+        margin-right: 10px;
+      }
+
+      input {
+        border: none;
+        outline: none;
+        background: inherit;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .countries {
+    border-bottom-left-radius: 8px;
+    overflow-y: scroll;
+    height: 484px;
+    max-width: 230px;
+
+    .country {
+      padding: 15px;
+      color: white;
+      background: $darkblue;
+      border-bottom: 1px solid $lightgrey;
+
+      .country-name {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      .data {
+        display: flex;
+
+        .box {
+          h4 {
+            font-size: 12px;
+            margin: 0 20px 0 0;
+          }
+
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+
+      &.current {
+        background: $red;
+      }
+
+      &:hover {
+        background: $red;
+        color: $white;
+        cursor: pointer;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    h3.loading {
+      padding: 15px;
+    }
+  }
+}
+
+// @media only screen and (max-width: 991px) {
+//   .countries {
+//     display: none;
+//   }
+// }

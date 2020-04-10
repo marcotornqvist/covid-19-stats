@@ -1,0 +1,32 @@
+{
+  "features": [
+    {
+      "timezones": ["America/Aruba"],
+      "latlng": [12.5, -69.96666666],
+      "name": "Aruba",
+      "country_code": "AW",
+      "capital": "Oranjestad"
+    },
+    {
+      "timezones": ["Asia/Kabul"],
+      "latlng": [33, 65],
+      "name": "Afghanistan",
+      "country_code": "AF",
+      "capital": "Kabul"
+    },
+    {
+      "timezones": ["Africa/Luanda"],
+      "latlng": [-12.5, 18.5],
+      "name": "Angola",
+      "country_code": "AO",
+      "capital": "Luanda"
+    },
+    {
+      "timezones": ["Europe/Helsinki"],
+      "latlng": [64, 26],
+      "name": "Finland",
+      "country_code": "FI",
+      "capital": "Helsinki"
+    }
+  ]
+}

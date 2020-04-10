@@ -1,0 +1,39 @@
+.visuals {
+  width: 100%;
+  flex: 0 1 auto;
+
+  div {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .gm-style {
+    background: $darkblue;
+    border-radius: 5px;
+  }
+
+  .gm-style-iw {
+    width: 250px;
+    height: 120px;
+    padding: 10px;
+
+    h2 {
+      font-size: 20px;
+      font-family: "Fjalla One", sans-serif;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin: 0px;
+
+      li {
+        font-family: "Fjalla One", sans-serif;
+        font-size: 12px;
+        margin-top: 10px;
+
+        span {
+        }
+      }
+    }
+  }
+}
