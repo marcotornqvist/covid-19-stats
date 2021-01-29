@@ -1,6 +1,12 @@
 # Covid 19 Statistics
 
-> To get maps to work, insert own .env "REACT_APP_SECRET_KEY" googleMapsApiSecretKey.
+(App is still in development)
+
+> To get maps to work, insert own .env file with "REACT_APP_SECRET_KEY" googleMapsApiSecretKey.
+
+```bash
+REACT_APP_SECRET_KEY=
+```
 
 ## Usage
 
@@ -10,7 +16,7 @@ Install dependencies
 npm install
 ```
 
-### Run Server
+### Start App
 
 ```bash
 npm start
