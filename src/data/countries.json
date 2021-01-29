@@ -1,32 +1,262 @@
 {
   "features": [
     {
-      "timezones": ["America/Aruba"],
-      "latlng": [12.5, -69.96666666],
-      "name": "Aruba",
-      "country_code": "AW",
-      "capital": "Oranjestad"
-    },
-    {
-      "timezones": ["Asia/Kabul"],
       "latlng": [33, 65],
-      "name": "Afghanistan",
-      "country_code": "AF",
-      "capital": "Kabul"
+      "name": "Afghanistan"
     },
     {
-      "timezones": ["Africa/Luanda"],
+      "latlng": [41, 20],
+      "name": "Albania"
+    },
+    {
+      "latlng": [28, 3],
+      "name": "Algeria"
+    },
+    {
+      "latlng": [-14.33333333, -170],
+      "name": "American Samoa"
+    },
+    {
+      "latlng": [42.5, 1.5],
+      "name": "Andorra"
+    },
+    {
       "latlng": [-12.5, 18.5],
-      "name": "Angola",
-      "country_code": "AO",
-      "capital": "Luanda"
+      "name": "Angola"
     },
     {
-      "timezones": ["Europe/Helsinki"],
-      "latlng": [64, 26],
-      "name": "Finland",
-      "country_code": "FI",
-      "capital": "Helsinki"
+      "latlng": [18.25, -63.16666666],
+      "name": "Anguilla"
+    },
+    {
+      "latlng": [-90, 0],
+      "name": "Antarctica"
+    },
+    {
+      "latlng": [17.05, -61.8],
+      "name": "Antigua and Barbuda"
+    },
+    {
+      "latlng": [-34, -64],
+      "name": "Argentina"
+    },
+    {
+      "latlng": [40, 45],
+      "name": "Armenia"
+    },
+    {
+      "latlng": [12.5, -69.96666666],
+      "name": "Aruba"
+    },
+    {
+      "latlng": [-27, 133],
+      "name": "Australia"
+    },
+    {
+      "latlng": [47.33333333, 13.33333333],
+      "name": "Austria"
+    },
+    {
+      "latlng": [40.5, 47.5],
+      "name": "Azerbaijan"
+    },
+    {
+      "latlng": [24.25, -76],
+      "name": "Bahamas"
+    },
+    {
+      "latlng": [26, 50.55],
+      "name": "Bahrain"
+    },
+    {
+      "latlng": [24, 90],
+      "name": "Bangladesh"
+    },
+    {
+      "latlng": [13.16666666, -59.53333333],
+      "name": "Barbados"
+    },
+    {
+      "latlng": [53, 28],
+      "name": "Belarus"
+    },
+    {
+      "latlng": [50.83333333, 4],
+      "name": "Belgium"
+    },
+    {
+      "latlng": [17.25, -88.75],
+      "name": "Belize"
+    },
+    {
+      "latlng": [9.5, 2.25],
+      "name": "Benin"
+    },
+    {
+      "latlng": [32.33333333, -64.75],
+      "name": "Bermuda"
+    },
+    {
+      "latlng": [27.5, 90.5],
+      "name": "Bhutan"
+    },
+    { "latlng": [-17, -65], "name": "Bolivia" },
+    {
+      "latlng": [44, 18],
+      "name": "Bosnia and Herzegovina"
+    },
+    {
+      "latlng": [-22, 24],
+      "name": "Botswana"
+    },
+    {
+      "latlng": [-54.43333333, 3.4],
+      "name": "Bouvet Island"
+    },
+    {
+      "latlng": [-10, -55],
+      "name": "Brazil"
+    },
+    {
+      "latlng": [-6, 71.5],
+      "name": "British Indian Ocean Territory"
+    },
+    {
+      "latlng": [18.431383, -64.62305],
+      "name": "British Virgin Islands"
+    },
+    {
+      "latlng": [4.5, 114.66666666],
+      "name": "Brunei Darussalam"
+    },
+    {
+      "latlng": [43, 25],
+      "name": "Bulgaria"
+    },
+    {
+      "latlng": [13, -2],
+      "name": "Burkina Faso"
+    },
+    {
+      "latlng": [-3.5, 30],
+      "name": "Burundi"
+    },
+    {
+      "latlng": [13, 105],
+      "name": "Cambodia"
+    },
+    {
+      "latlng": [6, 12],
+      "name": "Cameroon"
+    },
+    {
+      "latlng": [60, -95],
+      "name": "Canada"
+    },
+    {
+      "latlng": [16, -24],
+      "name": "Cape Verde"
+    },
+    {
+      "latlng": [19.5, -80.5],
+      "name": "Cayman Islands"
+    },
+    {
+      "latlng": [7, 21],
+      "name": "Central African Republic"
+    },
+    {
+      "latlng": [15, 19],
+      "name": "Chad"
+    },
+    {
+      "latlng": [-30, -71],
+      "name": "Chile"
+    },
+    {
+      "latlng": [35, 105],
+      "name": "China"
+    },
+    {
+      "latlng": [-10.5, 105.66666666],
+      "name": "Christmas Island"
+    },
+    {
+      "latlng": [-12.5, 96.83333333],
+      "name": "Cocos (Keeling) Islands"
+    },
+    {
+      "latlng": [4, -72],
+      "name": "Colombia"
+    },
+    {
+      "latlng": [-12.16666666, 44.25],
+      "name": "Comoros"
+    },
+    {
+      "latlng": [-1, 15],
+      "name": "Congo (Brazzaville)"
+    },
+    {
+      "latlng": [0, 25],
+      "name": "Congo (Kinshasa)"
+    },
+    {
+      "latlng": [-21.23333333, -159.76666666],
+      "name": "Cook Islands"
+    },
+    {
+      "latlng": [10, -84],
+      "name": "Costa Rica"
+    },
+    {
+      "latlng": [45.16666666, 15.5],
+      "name": "Croatia"
+    },
+    {
+      "latlng": [21.5, -80],
+      "name": "Cuba"
+    },
+    {
+      "latlng": [35, 33],
+      "name": "Cyprus"
+    },
+    {
+      "latlng": [49.75, 15.5],
+      "name": "Czech Republic"
+    },
+    {
+      "latlng": [8, -5],
+      "name": "Côte d'Ivoire"
+    },
+    { "latlng": [56, 10], "name": "Denmark" },
+    {
+      "latlng": [11.5, 43],
+      "name": "Djibouti"
+    },
+    {
+      "latlng": [15.41666666, -61.33333333],
+      "name": "Dominica"
+    },
+    {
+      "latlng": [19, -70.66666666],
+      "name": "Dominican Republic"
+    },
+    {
+      "latlng": [-2, -77.5],
+      "name": "Ecuador"
+    },
+    {
+      "latlng": [27, 30],
+      "name": "Egypt"
+    },
+    {
+      "latlng": [13.83333333, -88.91666666],
+      "name": "El Salvador"
+    },
+    {
+      "latlng": [2, 10],
+      "name": "Equatorial Guinea"
     }
   ]
 }

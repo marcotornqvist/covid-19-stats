@@ -1,5 +1,26 @@
 [
   {
+    "timezones": ["America/Aruba"],
+    "latlng": [12.5, -69.96666666],
+    "name": "Aruba",
+    "country_code": "AW",
+    "capital": "Oranjestad"
+  },
+  {
+    "timezones": ["Asia/Kabul"],
+    "latlng": [33, 65],
+    "name": "Afghanistan",
+    "country_code": "AF",
+    "capital": "Kabul"
+  },
+  {
+    "timezones": ["Africa/Luanda"],
+    "latlng": [-12.5, 18.5],
+    "name": "Angola",
+    "country_code": "AO",
+    "capital": "Luanda"
+  },
+  {
     "timezones": ["America/Anguilla"],
     "latlng": [18.25, -63.16666666],
     "name": "Anguilla",
@@ -1728,6 +1749,13 @@
     "capital": "Kiev"
   },
   {
+    "timezones": ["Pacific/Johnston", "Pacific/Midway", "Pacific/Wake"],
+    "latlng": [19.2911437, 166.618332],
+    "name": "United States Minor Outlying Islands",
+    "country_code": "UM",
+    "capital": null
+  },
+  {
     "timezones": ["America/Montevideo"],
     "latlng": [-33, -56],
     "name": "Uruguay",
@@ -1735,8 +1763,39 @@
     "capital": "Montevideo"
   },
   {
+    "timezones": [
+      "America/New_York",
+      "America/Detroit",
+      "America/Kentucky/Louisville",
+      "America/Kentucky/Monticello",
+      "America/Indiana/Indianapolis",
+      "America/Indiana/Vincennes",
+      "America/Indiana/Winamac",
+      "America/Indiana/Marengo",
+      "America/Indiana/Petersburg",
+      "America/Indiana/Vevay",
+      "America/Chicago",
+      "America/Indiana/Tell_City",
+      "America/Indiana/Knox",
+      "America/Menominee",
+      "America/North_Dakota/Center",
+      "America/North_Dakota/New_Salem",
+      "America/North_Dakota/Beulah",
+      "America/Denver",
+      "America/Boise",
+      "America/Phoenix",
+      "America/Los_Angeles",
+      "America/Anchorage",
+      "America/Juneau",
+      "America/Sitka",
+      "America/Metlakatla",
+      "America/Yakutat",
+      "America/Nome",
+      "America/Adak",
+      "Pacific/Honolulu"
+    ],
     "latlng": [38, -97],
-    "name": "US",
+    "name": "United States",
     "country_code": "US",
     "capital": "Washington D.C."
   },
@@ -1774,6 +1833,13 @@
     "name": "British Virgin Islands",
     "country_code": "VG",
     "capital": "Road Town"
+  },
+  {
+    "timezones": ["America/St_Thomas"],
+    "latlng": [18.35, -64.933333],
+    "name": "United States Virgin Islands",
+    "country_code": "VI",
+    "capital": "Charlotte Amalie"
   },
   {
     "timezones": ["Asia/Ho_Chi_Minh"],

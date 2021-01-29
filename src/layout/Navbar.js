@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <Link className="navbar-brand" to="/">
-        Insert Name
+        Covid 19 Statistics
       </Link>
       <button
         className="navbar-toggler"
@@ -21,13 +21,13 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/register">
-              Register
+            <Link className="nav-link" to="/">
+              Statistics
             </Link>
           </li>
-          <li className="nav-item login">
-            <Link className="nav-link" to="/sign-in">
-              Sign In
+          <li className="nav-item">
+            <Link className="nav-link" to="/about">
+              About
             </Link>
           </li>
         </ul>

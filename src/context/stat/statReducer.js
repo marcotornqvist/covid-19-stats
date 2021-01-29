@@ -25,7 +25,8 @@ export default (state, action) => {
             "Bahamas, The",
             "The Bahamas",
             "North Ireland",
-            "Republic of Ireland"
+            "Republic of Ireland",
+            "ALA Aland Islands"
           ];
           return !valuesToRemove.includes(item.Country);
         }),

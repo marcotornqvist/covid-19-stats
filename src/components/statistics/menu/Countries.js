@@ -6,12 +6,12 @@ const Countries = () => {
   const statContext = useContext(StatContext);
   const { stats, loading, filtered } = statContext;
 
-  let sorted;
+  // let sorted;
 
-  // The objects will still remain sorted despite objects being filtered or not
-  if (stats !== null && !loading) {
-    sorted = stats.sort((x, y) => y.TotalConfirmed - x.TotalConfirmed);
-  }
+  // // The objects will still remain sorted despite objects being filtered or not
+  // if (stats !== null && !loading) {
+  //   sorted = stats.sort((x, y) => y.TotalConfirmed - x.TotalConfirmed);
+  // }
 
   return (
     <div className="countries">
@@ -21,7 +21,7 @@ const Countries = () => {
             <CountryItem country={country} key={index} />
           ))
         ) : (
-          sorted.map((country, index) => (
+          stats.map((country, index) => (
             <CountryItem country={country} key={index} />
           ))
         )

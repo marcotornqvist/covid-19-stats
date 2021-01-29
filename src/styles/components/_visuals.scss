@@ -7,15 +7,18 @@
     border-bottom-right-radius: 8px;
   }
 
-  .gm-style {
-    background: $darkblue;
-    border-radius: 5px;
-  }
+  // .gm-style {
+  //   background: $darkblue;
+  //   border-radius: 5px;
+  // }
 
-  .gm-style-iw {
-    width: 250px;
-    height: 120px;
-    padding: 10px;
+  // .gm-style-iw {
+  //   width: 250px;
+  //   height: 120px;
+  //   padding: 10px;
+
+  .wrapper {
+    width: 200px;
 
     h2 {
       font-size: 20px;
@@ -25,14 +28,12 @@
 
     ul {
       margin: 0px;
+      list-style-type: none;
 
       li {
         font-family: "Fjalla One", sans-serif;
         font-size: 12px;
         margin-top: 10px;
-
-        span {
-        }
       }
     }
   }

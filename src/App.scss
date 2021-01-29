@@ -1,5 +1,5 @@
 // All main styling
-@import "./styles/main";
+@import "/styles/main";
 
 // Components
 @import "./styles/components/menu";
@@ -9,6 +9,5 @@
 @import "./styles/layout/navbar";
 
 // Pages
-@import "./styles/pages/landing";
-@import "./styles/pages/survey";
 @import "./styles/pages/statistics";
+@import "./styles/pages/about";
